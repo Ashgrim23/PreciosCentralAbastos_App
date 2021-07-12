@@ -1,0 +1,76 @@
+<resources>
+    <string name="string_adUnitId">ca-app-pub-5139616556883469/9000858946</string>
+
+    <string name="app_name">Precios Central de Abastos</string>
+    <string name="string_abarrotes">Abarrotes</string>
+    <string name="string_carnicos">Cárnicos</string>
+    <string name="string_frutas">Frutas</string>
+    <string name="string_verduras">Verduras</string>
+    <string name="string_preciosFecha">Precios al %1$s de %2$s del %3$s.</string>
+    <string name="string_descargar_info">Descargar Información</string>
+    <string name="string_sinInfo">Sin\nInformación</string>
+
+
+    <string name="string_precio_card">$%1$d</string>
+    <string name="string_precio_unidad">Pesos / %1$s</string>
+
+    <string name="string_var_monto">%1$d Pesos</string>
+    <string name="string_var_montoPositivo">+%1$d Pesos</string>
+
+    <string name="string_var_porc">(%1$.2f \%%) </string>
+    <string name="string_var_porcPositivo">(+%1$.2f \%%) </string>
+    <string name="channel_name">Descarga de Precios</string>
+    <string name="channel_description">Notifica cuando se descargan precios del servidor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string
+        name="string_about_descripcion">Realiza compras más informadas comparando con los precios al consumidor de la central
+        de abastos de la Ciudad de México para distintos productos.
+        <br/>\n<br/>\nRecopilación de precios realizadas por <a href="www.ficeda.com.mx">www.ficeda.com.mx</a>
+    </string>
+    <string name="txt_about_atribuciones_titulo">Atribuciones Iconos</string>
+    <string name="string_about_atribuciones">
+        photo3idea_studio
+        <br/>\n
+        Freepik
+        <br/>\n
+        iconixar
+        <br/>\n
+        dDara
+        <br/>\n
+       de  <a href="www.flaticon.com">www.flaticon.com</a>
+    </string>
+    <string name="share_btn_descripcion">Comparte la lista de precios</string>
+    <string name="string_grafica_btn_10D">10D</string>
+    <string name="string_grafica_btn_1M">1M</string>
+    <string name="string_grafica_btn_6M">6M</string>
+    <string name="string_grafica_btn_todo">Todo</string>
+    <string name="string_grafica_periodo">Histórico de precios al %1$d de %2$s del %3$d</string>
+    <string name="string_grafica_marker_fecha">Precio: %1$s</string>
+    <string name="string_grafica_marker_precio">Fecha: %1$s</string>
+
+    <string name="string_notification_title">Precios Central de Abastos</string>
+    <string name="string_notification_content">Precios Actualizados</string>
+    <string name="string_error_snackbar">Error al descargar datos</string>
+    <string name="string_about_icon_content_desc">Icono de Aplicación</string>
+    <string name="string_item_imagen_content_description">Imagen del producto</string>
+    <string name="string_item_tendencia_contentDescription">Flecha de tendencia del precio</string>
+    <string name="string_mainactivity_sininfo">Sin Información de Precios</string>
+    <string name="string_about_version">Version %1$s</string>
+
+    <string name="string_menu_actualziar">Actualizar Precios</string>
+    <string name="string_menu_acercade">Acerca de</string>
+    <string name="string_sinred_errorconexion">Error de Conexión</string>
+    <string name="string_sinred_contentDesc">Sin conexión</string>
+    <string name="string_fragment_todosProds">Todos los Productos</string>
+    <string name="string_fragment_abarrotes">Abarrotes</string>
+    <string name="string_fragment_carnicos">Cárnicos</string>
+    <string name="string_fragment_verduras">Verduras y Legumbres</string>
+    <string name="string_fragment_frutas">Frutas</string>
+    <string name="string_share_abarrotes_titulo">Lista de precios - Abarrotes</string>
+    <string name="string_share_carnicos_titulo">Lista de precios - Carnicos</string>
+    <string name="string_share_verduras_titulo">Lista de precios - Verduras</string>
+    <string name="string_share_frutas_titulo">Lista de precios -Frutas</string>
+    <string name="string_share_todo_titulo">Lista de precios</string>
+    <string name="string_adsize">SMART_BANNER</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacion"
+    app:startDestination="@id/navHomeFragment">
+
+
+    <fragment
+        android:id="@+id/navAboutFragment"
+        android:name="net.centralabastos.ashgrim.AboutFragment"
+        android:label="Acerca de"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="net.centralabastos.ashgrim.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navHomeFragment_to_graficaFragment"
+            app:destination="@id/graficaFragment" />
+        <action
+            android:id="@+id/action_navHomeFragment_to_navAboutFragment"
+            app:destination="@id/navAboutFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/graficaFragment"
+        android:name="net.centralabastos.ashgrim.GraficaFragment"
+        android:label="Historico de Precios"
+        tools:layout="@layout/fragment_grafica">
+        <argument
+            android:name="idProducto"
+            app:argType="integer" />
+        <argument
+            android:name="descripcion"
+            app:argType="string" />
+        <argument
+            android:name="precio"
+            app:argType="float" />
+        <argument
+            android:name="unidad"
+            app:argType="string" />
+        <argument
+            android:name="fecha"
+            app:argType="string" />
+
+    </fragment>
+</navigation>

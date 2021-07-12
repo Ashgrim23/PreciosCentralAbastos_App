@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_gravity="center_vertical"
+    tools:context=".AboutFragment">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:contentDescription="@string/string_about_icon_content_desc"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/img_about_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        android:layout_marginStart="@dimen/largeSpace"
+        app:layout_constraintStart_toEndOf="@id/img_about_logo"
+        app:layout_constraintTop_toTopOf="@id/img_about_logo"
+        android:id="@+id/txt_about_app"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+    <TextView
+
+        android:layout_marginStart="@dimen/largeSpace"
+        android:gravity="top"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_version"
+        tools:text="Version 1.0"
+        app:layout_constraintTop_toBottomOf="@id/txt_about_app"
+        app:layout_constraintBottom_toBottomOf="@id/img_about_logo"
+        app:layout_constraintStart_toEndOf="@id/img_about_logo"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_marginHorizontal="@dimen/largeSpace"
+        android:padding="@dimen/largeSpace"
+        android:gravity="fill"
+        android:autoLink="web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/string_about_descripcion"/>
+
+    <TextView
+        android:layout_marginHorizontal="@dimen/largeSpace"
+        android:layout_marginVertical="@dimen/smallSpace"
+        android:paddingHorizontal="@dimen/largeSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:text="@string/txt_about_atribuciones_titulo" />
+
+    <TextView
+        android:layout_marginHorizontal="@dimen/largeSpace"
+        android:paddingHorizontal="@dimen/largeSpace"
+        android:autoLink="web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_about_atribuciones"/>
+
+    </LinearLayout>
+</ScrollView>
